@@ -25,6 +25,9 @@ h1, h2 {
   padding-top: 20px;
 }  */
 
+.navbar-brand {
+	font-weight: bold;
+}
 
 
 
@@ -34,7 +37,9 @@ h1, h2 {
 }
 
 
-/* Trying to add space between photo and wrapping text on index - NEED HELP */
+/* Trying to add space between photo and wrapping text on index - NEED HELP
+Also need to corretly fomrat the image src: line in the Index file.
+*/
 .Responsive image {
  margin-right: 30px; 
 	
