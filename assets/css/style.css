@@ -1,0 +1,70 @@
+body {
+	background-color: #F2E5D5;
+	color: #777777;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  background-image: url("../images/Lure.jpg");
+  
+}
+	
+
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 10px;
+
+}
+
+/* Added for the Fiexed Navbar but can't get to work - NEED HELP*/
+/* .navbar {
+	position: fixed;
+  min-height: 10px;
+  padding-top: 20px;
+}  */
+
+
+
+
+/* Jumbotron Background color Styling */
+.jumbotron {
+  background-color: white; 
+}
+
+
+/* Trying to add space between photo and wrapping text on index - NEED HELP */
+.Responsive image {
+ margin-right: 30px; 
+	
+}
+
+.footer {
+	background-color: #cccccc;
+	text-align: center;
+	line-height: 50px;
+	position: fixed;
+	height: 50px;
+	bottom: 0;
+	width: 100%;
+	border-top: 2px solid #4aaaa5;
+}
+
+
+/* Portfolio Styling */
+
+.caption {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white; 
+	text-align: center;
+	background-color: #4aaaa5;
+  width: 70%;
+	margin-bottom: 50px
+}
+
+/* NEED HELP with proper Image alignment in the container. */
+
+
