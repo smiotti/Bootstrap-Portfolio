@@ -18,12 +18,15 @@ h1, h2 {
 
 }
 
-/* Added for the Fiexed Navbar but can't get to work - NEED HELP*/
-/* .navbar {
+/* Added for the Fiexed Navbar but can't get to work - NEED HELP  */
+/* class = .[name] id= #[name] */
+#navtop {
 	position: fixed;
+	top: 0;
+	width: 100%;
   min-height: 10px;
   padding-top: 20px;
-}  */
+}  
 
 .navbar-brand {
 	font-weight: bold;
