@@ -19,7 +19,7 @@ h1, h2 {
 
 /* Navbar Styling */
 
-#navbar-brand {
+.navbar-brand {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color:#4aaaa5;
 	color: white;
@@ -28,7 +28,6 @@ h1, h2 {
 	text-decoration: none;
 	padding: 0 30px;
 }
-
 
 
 /* Jumbotron Background color Styling, used within container for all html documents. */

@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
     <!-- Link  html to the Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <!-- Link  html to CSS Style Page -->
@@ -17,34 +15,27 @@
 </head>
 
 <body>
-    <!-- Section 1: Navbar-->
+    <!-- Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <!--  Brand / Logo -->
-            <a id="navbar-brand" href="index.html">Steve Miotti</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">Steve Miotti</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <!-- The links for navbar -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </div>
             </div>
         </div>
     </nav>
 
+    <!-- Form component used inside the Jumbotron component to lay out the contact page. -->
     <div class="container">
         <div class="jumbotron">
             <h2 class="display-10">Contact</h2>
@@ -103,9 +94,16 @@
         </div>
     </div>
 
+    <!-- Sticky Footer -->
     <footer class="footer">
         </span>Copyright © 2018</span>
-    </footer> 
+    </footer>
+
+    <!-- Bootstrap CDN Scripts required for collapsable Navbar button to work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 
