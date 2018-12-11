@@ -30,6 +30,26 @@ h1, h2 {
 }
 
 
+
+/* Logo Hover effect */
+.navbar-brand:hover, input[type=submit]:hover {
+	background: #16AAA5;
+	color: #837f7f;
+}
+
+
+/* About Photo Hover Spin effect*/
+.rounded { transition: all 0.3s ease-in-out 0s; }
+
+.rounded:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
 /* Jumbotron Background color Styling, used within container for all html documents. */
 
 .jumbotron {
@@ -43,7 +63,6 @@ h1, h2 {
 img {
  padding-right: 30px; 
 }
-
 
 
 /* Footer Styling */
@@ -63,23 +82,9 @@ img {
 
 /* Portfolio Styling */
 
-.my-8 {
-	margin-bottom: 50px;
-}
-
-.caption {
+ .btn-dark {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
 	font-weight: bold;
-	color: white; 
-	text-align: center;
-	background-color: #4aaaa5;
-	margin-bottom: 50px;
 }
 
-
- .center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
